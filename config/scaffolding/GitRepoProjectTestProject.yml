@@ -8,11 +8,11 @@ packages:
   gitUsername: santhu736852
   gitBranch: main
 services:
-- serviceName: project.gitrepoprojecttest.integrations:Test1
+- serviceName: project.gitrepoprojecttest.integrations:TestVH
   packages:
   - name: GitRepoProjectTestProject
     version: "1.0"
-- serviceName: pub.math:addInts
+- serviceName: pub.date:getCurrentDate
   packages:
   - name: WmPublic
     version: 11.1.0.0.1132
